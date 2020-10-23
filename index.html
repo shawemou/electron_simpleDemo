@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>shawemouDemo</title>
+
+  <!-- jquery的引用地址查询 https://www.bootcdn.cn/ -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.0/jquery.js"></script>
+
+</head>
+
+<body>
+  <div>
+		请输入<input type='text' id='input' value=''/>
+		<button>弹框</button>
+  </div>
+</body>
+<script>
+	$("button").on("click",function(){
+		alert($("#input").val())
+	})
+</script>
+
+</html>
